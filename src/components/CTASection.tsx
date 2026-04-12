@@ -11,7 +11,7 @@ const CTASection = () => (
         href="mailto:hello@veininnovation.com"
         className="inline-block bg-primary text-primary-foreground px-8 py-3.5 rounded-md text-sm font-medium hover:opacity-90 transition-opacity"
       >
-        Start a project
+        Get in touch
       </a>
     </div>
   </section>
