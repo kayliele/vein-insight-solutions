@@ -1,15 +1,15 @@
 const steps = [
-  { num: "01", title: "Find the problem", desc: "We research, interview, and observe to uncover real pain points." },
-  { num: "02", title: "Understand it clearly", desc: "We map out the root cause, user context, and what success looks like." },
-  { num: "03", title: "Build the solution", desc: "We design and develop with clarity, speed, and attention to detail." },
-  { num: "04", title: "Deliver and improve", desc: "We ship, measure, learn, and iterate based on real usage." },
+  { num: "01", title: "Find the problem", desc: "Research, interview, and observe to uncover real pain points." },
+  { num: "02", title: "Understand it clearly", desc: "Map out the root cause, user context, and what success looks like." },
+  { num: "03", title: "Build the solution", desc: "Design and develop with clarity, speed, and attention to detail." },
+  { num: "04", title: "Deliver and improve", desc: "Ship, measure, learn, and iterate based on real usage." },
 ];
 
 const ProcessSection = () => (
   <section id="process" className="py-32 px-6 bg-muted/50">
     <div className="container mx-auto max-w-3xl">
       <p className="text-sm font-medium text-primary uppercase tracking-widest mb-4">Process</p>
-      <h2 className="text-3xl md:text-4xl font-bold mb-16">How we work</h2>
+      <h2 className="text-3xl md:text-4xl font-bold mb-16">How Vein works</h2>
       <div className="space-y-12">
         {steps.map((step) => (
           <div key={step.num} className="flex gap-6 items-start">
