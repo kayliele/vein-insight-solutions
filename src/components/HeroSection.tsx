@@ -5,7 +5,7 @@ const HeroSection = () => (
         Solve the right problem.
       </h1>
       <p className="text-lg md:text-xl text-muted-foreground max-w-xl mx-auto mb-10 animate-fade-up" style={{ animationDelay: "0.1s" }}>
-        We turn real user pain points into practical products.
+        Vein Innovation turns real user pain points into practical products.
       </p>
       <a
         href="#projects"

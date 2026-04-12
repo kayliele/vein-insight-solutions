@@ -5,7 +5,7 @@ const CTASection = () => (
         Let's solve something real.
       </h2>
       <p className="text-background/60 mb-10 text-lg">
-        Have a problem worth solving? We'd love to hear about it.
+        Have a problem worth solving? Vein would love to hear about it.
       </p>
       <a
         href="mailto:hello@veininnovation.com"
