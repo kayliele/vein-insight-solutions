@@ -2,11 +2,11 @@ import { ExternalLink } from "lucide-react";
 
 const products = [
   {
-    name: "Thoureat",
+    name: "TourEat",
     description: "Food & culture map — discover local flavors and hidden gems around you.",
     logo: "/toureat-logo.png",
     link: "https://www.toureatsince2026.com/",
-    color: "bg-[#E85D3A]",
+    color: "bg-white",
   },
   {
     name: "DuoNow",
@@ -17,7 +17,7 @@ const products = [
   },
   {
     name: "Tea Tarot",
-    description: "A cozy tarot reading experience with Vietnamese tea culture.",
+    description: "A platform to give tarot services and raise mental health awareness.",
     logo: "/teatarot-logo.png",
     link: "https://www.instagram.com/tarot_tratra/",
     color: "bg-[#8B7355]",
