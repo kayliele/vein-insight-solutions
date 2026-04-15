@@ -13,14 +13,14 @@ const products = [
     description: "Smart learning companion for students — study smarter, not harder.",
     logo: "/duonow-logo.png",
     link: "https://www.facebook.com/profile.php?id=61573974130010",
-    color: "bg-[#1a4d3a]",
+    color: "bg-white",
   },
   {
     name: "Tea Tarot",
     description: "An online platform to provide tarot services and raise mental health awareness.",
     logo: "/teatarot-logo.png",
     link: "https://www.instagram.com/tarot_tratra/",
-    color: "bg-[#8B7355]",
+    color: "bg-white",
   },
 ];
 
