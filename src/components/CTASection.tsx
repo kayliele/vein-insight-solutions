@@ -13,6 +13,7 @@ const CTASection = () => (
       >
         Get in touch
       </a>
+      <p className="text-background/40 text-sm mt-6">veininnovation@gmail.com</p>
     </div>
   </section>
 );
