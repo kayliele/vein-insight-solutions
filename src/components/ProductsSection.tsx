@@ -17,7 +17,7 @@ const products = [
   },
   {
     name: "Tea Tarot",
-    description: "A platform to give tarot services and raise mental health awareness.",
+    description: "An online platform to provide tarot services and raise mental health awareness.",
     logo: "/teatarot-logo.png",
     link: "https://www.instagram.com/tarot_tratra/",
     color: "bg-[#8B7355]",
