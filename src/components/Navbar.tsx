@@ -1,11 +1,8 @@
-import VeinLogo from "./VeinLogo";
-
 const Navbar = () => (
   <nav className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-md border-b border-border/50">
     <div className="container mx-auto flex items-center justify-between h-16 px-6">
       <div className="flex items-center gap-2">
-        <VeinLogo className="w-6 h-7 text-foreground" />
-        <span className="font-semibold text-lg tracking-tight">Vein Innovation</span>
+        <img src="/vein-logo.png" alt="Vein Innovation" className="h-8 w-auto" />
       </div>
       <div className="hidden md:flex items-center gap-8 text-sm text-muted-foreground">
         <a href="#about" className="hover:text-foreground transition-colors">About</a>
