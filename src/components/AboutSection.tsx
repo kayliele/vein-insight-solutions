@@ -1,6 +1,10 @@
-const AboutSection = () => (
+import { useScrollAnimation } from "@/hooks/use-scroll-animation";
+
+const AboutSection = () => {
+  const { ref, isVisible } = useScrollAnimation();
+  return (
   <section id="about" className="py-32 px-6">
-    <div className="container mx-auto max-w-3xl">
+    <div ref={ref} className={`container mx-auto max-w-3xl transition-all duration-700 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>
       <p className="text-sm font-medium text-primary uppercase tracking-widest mb-4">About</p>
       <h2 className="text-3xl md:text-4xl font-bold mb-8">
         One vision, many products.
@@ -24,6 +28,7 @@ const AboutSection = () => (
       </div>
     </div>
   </section>
-);
+  );
+};
 
 export default AboutSection;
