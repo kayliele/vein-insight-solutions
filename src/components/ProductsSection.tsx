@@ -1,27 +1,24 @@
 import { ExternalLink } from "lucide-react";
-import toureatLogo from "@/assets/toureat-logo.png";
-import duonowLogo from "@/assets/duonow-logo.png";
-import teatarotLogo from "@/assets/teatarot-logo.png";
 
 const products = [
   {
     name: "Thoureat",
     description: "Food & culture map — discover local flavors and hidden gems around you.",
-    logo: toureatLogo,
+    logo: "/toureat-logo.png",
     link: "https://www.toureatsince2026.com/",
     color: "bg-[#E85D3A]",
   },
   {
     name: "DuoNow",
     description: "Smart learning companion for students — study smarter, not harder.",
-    logo: duonowLogo,
+    logo: "/duonow-logo.png",
     link: "https://www.facebook.com/profile.php?id=61573974130010",
     color: "bg-[#1a4d3a]",
   },
   {
     name: "Tea Tarot",
     description: "A cozy tarot reading experience with Vietnamese tea culture.",
-    logo: teatarotLogo,
+    logo: "/teatarot-logo.png",
     link: "https://www.instagram.com/tarot_tratra/",
     color: "bg-[#8B7355]",
   },
