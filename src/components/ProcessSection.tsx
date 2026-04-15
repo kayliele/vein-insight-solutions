@@ -5,9 +5,13 @@ const steps = [
   { num: "04", title: "Deliver and improve", desc: "Ship, measure, learn, and iterate based on real usage." },
 ];
 
-const ProcessSection = () => (
+import { useScrollAnimation } from "@/hooks/use-scroll-animation";
+
+const ProcessSection = () => {
+  const { ref, isVisible } = useScrollAnimation();
+  return (
   <section id="process" className="py-32 px-6 bg-muted/50">
-    <div className="container mx-auto max-w-3xl">
+    <div ref={ref} className={`container mx-auto max-w-3xl transition-all duration-700 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>
       <p className="text-sm font-medium text-primary uppercase tracking-widest mb-4">Process</p>
       <h2 className="text-3xl md:text-4xl font-bold mb-16">How Vein works</h2>
       <div className="space-y-12">
@@ -23,6 +27,7 @@ const ProcessSection = () => (
       </div>
     </div>
   </section>
-);
+  );
+};
 
 export default ProcessSection;
