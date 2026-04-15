@@ -10,9 +10,9 @@ const Navbar = () => (
       <div className="hidden md:flex items-center gap-8 text-sm text-muted-foreground">
         <a href="#about" className="hover:text-foreground transition-colors">About</a>
         <a href="#process" className="hover:text-foreground transition-colors">Process</a>
-        <a href="#projects" className="hover:text-foreground transition-colors">Projects</a>
+        <a href="#products" className="hover:text-foreground transition-colors">Products</a>
         <a href="#contact" className="bg-primary text-primary-foreground px-4 py-2 rounded-md hover:opacity-90 transition-opacity">
-          Start a project
+          Get in touch
         </a>
       </div>
     </div>
