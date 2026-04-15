@@ -8,7 +8,7 @@ const CTASection = () => (
         Have a problem worth solving? Vein would love to hear about it.
       </p>
       <a
-        href="mailto:hello@veininnovation.com"
+        href="mailto:veininnovation@gmail.com"
         className="inline-block bg-primary text-primary-foreground px-8 py-3.5 rounded-md text-sm font-medium hover:opacity-90 transition-opacity"
       >
         Get in touch
